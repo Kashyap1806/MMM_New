@@ -7,7 +7,7 @@ Approach:
 - Include non-media controls (seasonality, trend, price/promo, holidays) to isolate causal-ish media effects.
 - Convert coefficients to marginal and average ROAS, build response curves, and run what-if simulations for budget shifts.
 
-📦 Data
+Data
 
 Grain: Weekly (can be adapted to daily or monthly).
 
@@ -20,7 +20,7 @@ Inputs:
 
 Source: Synthetic (simulated) data to demonstrate method; structure matches how you’d treat real datasets.
 
-🧠 Methodology
+Methodology
 
 Transformations
 - Adstock: adstock_t = media_t + λ * adstock_{t-1}, where λ is decay (estimated via search/grid).
